@@ -18,5 +18,16 @@ namespace Calculator
         {
             return a + b;
         }
+
+        /// <summary>
+        /// Subtract method.
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public static int Subtract(int a, int b)
+        {
+            return a - b;
+        }
     }
 }
